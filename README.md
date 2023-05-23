@@ -9,11 +9,25 @@ This paper introduces SATformer, a novel Transformer-based approach for the Bool
 As an end-to-end learning-based satisfiability classifier, the performance of SATformer surpasses that of NeuroSAT significantly. Furthermore, we integrate the clause predictions made by SATformer into modern heuristic-based SAT solvers and validate our approach with a logic equivalence checking task. Experimental results show that our SATformer can decrease the runtime of existing solvers by an average of 21.33%. 
 
 ## Installation
+Set up Python environment
 ```sh
 conda create -n satformer python=3.8.9
 conda activate satformer
 pip install -r requirements.txt
+bash setup.sh
 ```
+
+Set up the folder to store dataset and training logs
+```sh
+mkdir data
+mkdir exp
+```
+
+Compile the required tools
+```sh
+bash setup.sh
+```
+
 
 ## Model Training 
 Execute the bash script `./run/train.sh` to start training SATformer. You can change the configurations in this script. Please refer `./src/config.py` for the arguments
