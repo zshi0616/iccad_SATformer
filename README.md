@@ -2,7 +2,6 @@
 
 Code repository for the paper:  
 **SATformer: Transformer-Based UNSAT Core Learning**, ICCAD23, 
-
 Authors: Zhengyuan Shi; Min Li; Yi Liu; Sadaf Khan; Junhua Huang; Hui-Ling Zhen; Mingxuan Yuan; Qiang Xu
 
 ## Abstract 
