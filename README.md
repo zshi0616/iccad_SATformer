@@ -1,8 +1,8 @@
 # SATformer: Transformer-Based UNSAT Core Learning
 
 Code repository for the paper:  
-**SATformer: Transformer-Based UNSAT Core Learning**, ICCAD, under review.
-Anonymous author(s)
+**SATformer: Transformer-Based UNSAT Core Learning**, ICCAD23
+Authors: Zhengyuan Shi; Min Li; Yi Liu; Sadaf Khan; Junhua Huang; Hui-Ling Zhen; Mingxuan Yuan; Qiang Xu
 
 ## Abstract 
 This paper introduces SATformer, a novel Transformer-based approach for the Boolean Satisfiability (SAT) problem. Rather than solving the problem directly, SATformer approaches the problem from the opposite direction by focusing on unsatisfiability. Specifically, it models clause interactions to identify any unsatisfiable sub-problems. Using a graph neural network, we convert clauses into clause embeddings and employ a hierarchical Transformer-based model to understand clause correlation. SATformer is trained through a multi-task learning approach, using the single-bit satisfiability result and the minimal unsatisfiable core (MUC) for UNSAT problems as clause supervision. 
@@ -35,8 +35,21 @@ Execute the bash script `./run/train.sh` to start training SATformer. You can ch
 bash ./run/train.sh
 ```
 
+
 ## Model Testing 
 Execute the bash script `./run/test.sh` to validate SATformer. 
 ```sh
 bash ./run/test.sh
+```
+
+## Citation
+```sh
+@inproceedings{shi2023satformer,
+  title={SATformer: Transformer-Based UNSAT Core Learning},
+  author={Shi, Zhengyuan and Li, Min and Liu, Yi and Khan, Sadaf and Huang, Junhua and Zhen, Hui-Ling and Yuan, Mingxuan and Xu, Qiang},
+  booktitle={2023 IEEE/ACM International Conference on Computer Aided Design (ICCAD)},
+  pages={1--4},
+  year={2023},
+  organization={IEEE}
+}
 ```
