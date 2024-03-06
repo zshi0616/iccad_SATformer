@@ -10,7 +10,6 @@ bak
 .idea/
 *.pt
 *.pth
-*.txt
 *.tfevents*
 *.png
 abc.rc
