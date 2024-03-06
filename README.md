@@ -1,7 +1,7 @@
 # SATformer: Transformer-Based UNSAT Core Learning
 
 Code repository for the paper:  
-**SATformer: Transformer-Based UNSAT Core Learning**, ICCAD23, 
+[**SATformer: Transformer-Based UNSAT Core Learning**](https://ieeexplore.ieee.org/document/10323731/) @ ICCAD23, 
 Authors: Zhengyuan Shi; Min Li; Yi Liu; Sadaf Khan; Junhua Huang; Hui-Ling Zhen; Mingxuan Yuan; Qiang Xu
 
 ## Abstract 
@@ -16,6 +16,8 @@ conda activate satformer
 pip install -r requirements.txt
 bash setup.sh
 ```
+
+Install abc from: [https://github.com/berkeley-abc/abc](https://github.com/berkeley-abc/abc)
 
 Set up the folder to store dataset and training logs
 ```sh
